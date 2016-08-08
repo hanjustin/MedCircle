@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		36663B651D5821470085E91B /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36663B641D5821470085E91B /* Article.swift */; };
+		36663B671D5821720085E91B /* Author.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36663B661D5821720085E91B /* Author.swift */; };
 		366801971D57F40B001CA9E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366801961D57F40B001CA9E3 /* AppDelegate.swift */; };
 		366801991D57F40B001CA9E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366801981D57F40B001CA9E3 /* ViewController.swift */; };
 		3668019C1D57F40C001CA9E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3668019A1D57F40C001CA9E3 /* Main.storyboard */; };
@@ -20,6 +22,8 @@
 
 /* Begin PBXFileReference section */
 		143B9DA39553E2B86F024C08 /* Pods-MedCircleJL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedCircleJL.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedCircleJL/Pods-MedCircleJL.release.xcconfig"; sourceTree = "<group>"; };
+		36663B641D5821470085E91B /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		36663B661D5821720085E91B /* Author.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Author.swift; sourceTree = "<group>"; };
 		366801931D57F40B001CA9E3 /* MedCircleJL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedCircleJL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		366801961D57F40B001CA9E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		366801981D57F40B001CA9E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -46,6 +50,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		36663B631D5821470085E91B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				36663B641D5821470085E91B /* Article.swift */,
+				36663B661D5821720085E91B /* Author.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		3668018A1D57F40B001CA9E3 = {
 			isa = PBXGroup;
 			children = (
@@ -68,6 +81,7 @@
 			isa = PBXGroup;
 			children = (
 				366801A81D5817DA001CA9E3 /* Protocols */,
+				36663B631D5821470085E91B /* Models */,
 				366801961D57F40B001CA9E3 /* AppDelegate.swift */,
 				366801AD1D5818AD001CA9E3 /* DataService.swift */,
 				366801981D57F40B001CA9E3 /* ViewController.swift */,
@@ -230,8 +244,10 @@
 			files = (
 				366801991D57F40B001CA9E3 /* ViewController.swift in Sources */,
 				366801AA1D581804001CA9E3 /* JSONInstantiatable.swift in Sources */,
+				36663B651D5821470085E91B /* Article.swift in Sources */,
 				366801971D57F40B001CA9E3 /* AppDelegate.swift in Sources */,
 				366801AC1D58183D001CA9E3 /* DatabaseObject.swift in Sources */,
+				36663B671D5821720085E91B /* Author.swift in Sources */,
 				366801AE1D5818AD001CA9E3 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
