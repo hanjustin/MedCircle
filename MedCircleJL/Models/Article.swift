@@ -9,7 +9,7 @@ struct Article {
     let publishedDate: NSDate
     let author: Author
     
-    var likes_count: Int
+    var likesCount: Int
     var summary: String?
     var body: String?
 }
@@ -32,7 +32,7 @@ extension Article: DatabaseObject {
         formatter.dateFormat = "yyyy-MM-dd'T'HH-mm-ss.SSSZ"
         self.publishedDate = unboxer.unbox("published_at", formatter: formatter)
         self.author = unboxer.unbox("author")
-        self.likes_count = unboxer.unbox("likes_count")
+        self.likesCount = unboxer.unbox("likes_count")
         self.body = unboxer.unbox("body")
     }
 }
