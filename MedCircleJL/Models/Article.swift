@@ -15,7 +15,7 @@ struct Article {
 }
 
 extension Article {
-    mutating func updateDataFrom(article: Article) {
+    mutating func updateDataWith(article: Article) {
         self.body = article.body
     }
 }
